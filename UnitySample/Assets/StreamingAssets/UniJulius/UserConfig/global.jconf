@@ -1,0 +1,8 @@
+-h ../grammar-kit/model/phone_m/hmmdefs_ptm_gid.binhmm
+-hlist ../grammar-kit/model/phone_m/logicalTri
+-input mic
+-lv 500
+-zc 30
+-headmargin 300
+-tailmargin 400
+-rejectshort 500

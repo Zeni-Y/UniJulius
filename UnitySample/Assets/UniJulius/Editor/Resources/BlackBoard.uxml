@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" name="fileMenu" text="File" />
+        <uie:ToolbarButton text="Build" display-tooltip-when-elided="true" name="buildButton" label="Filler" style="-unity-text-align: middle-center; width: 58px; white-space: nowrap;" />
+        <uie:ObjectField label="Filler" name="fillerFile" />
+    </uie:Toolbar>
+</ui:UXML>

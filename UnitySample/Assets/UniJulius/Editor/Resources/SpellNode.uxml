@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:TextField picking-mode="Ignore" label="詠唱文" multiline="true" name="spell" />
+    <ui:Button text="Convert" display-tooltip-when-elided="true" name="Convert" />
+    <ui:TextField picking-mode="Ignore" label="ふりがな" multiline="true" name="kana" />
+    <ui:Foldout text="オプション" name="option">
+        <uie:IntegerField label="認識粒度" value="1" name="recogSize" text="オプション" style="border-top-width: 1px;" />
+    </ui:Foldout>
+</ui:UXML>

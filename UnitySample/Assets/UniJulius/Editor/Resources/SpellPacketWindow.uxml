@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" name="file-menu" text="File" />
+    </uie:Toolbar>
+    <uie:PropertyField name="spellContainerList" label="Spell Containers: " binding-path="spellContainers" />
+    <ui:Button text="Build" display-tooltip-when-elided="true" name="buildButton" />
+</ui:UXML>
